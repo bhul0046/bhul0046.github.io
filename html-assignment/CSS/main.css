@@ -1,0 +1,46 @@
+/* this is a css comment */
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 18px;
+}
+
+header, footer {
+    background-color: coral;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+
+a {
+    color: black;
+    transition: all 0.5s linear;
+}
+
+a:hover{
+    background-color: blue;
+}
+
+.ASHWINDER h1 {
+    COLOR: white;
+}
+
+.bullets{
+    list-style-type: square;
+}
+
+
+.link a { 
+    text-decoration: none; background-color:red;
+}
+
+ul li:nth-child(1){
+    background-color: cornflowerblue;
+}
+
+#my-photo{
+    box-shadow: 0px 2px 1px; color: black;
+}
+
+
+
