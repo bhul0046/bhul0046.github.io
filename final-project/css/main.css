@@ -1,0 +1,22 @@
+
+.map {
+    width: 600;
+    height: 450;
+    border: 0;
+}
+
+.tables {
+    background-color: black;
+}
+
+.new {
+    background-color: khaki;
+}
+
+.old {
+    background-color: white;
+}
+
+.gold {
+    background-color: white;
+}
