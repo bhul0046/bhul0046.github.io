@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final project</title>
-    <link href="css/main.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+
+       <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
 
     <!-- logo image on the left side and yellow bg -->
 
-    <img src="images/logo.png" alt="logo">
+    <img class="logo" src="images/logo.png" alt="logo">
     
     <!-- navigation inline one on the yellow bg and others on black -->
 
@@ -27,7 +35,7 @@
     <!-- a search bar with an search icon -->
 
     <form>
-        <div>
+        <div class="search">
             <label for="Search">Search</label>
             <input type="text" id="Search" name="search"><br>
         </div>
@@ -42,12 +50,18 @@
    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque atque cum in voluptate fuga maxime laborum commodi, consequuntur quaerat ea sunt eius at eveniet aliquam accusantium blanditiis expedita officia aspernatur?</p>
 
    <!-- button with div box -->
+   <div class="connect">
    <button type="button">Connect with us</button>
+</div>
+<br>
 
 </header>
+   <div>
+    <img src="images/about-us.jpg" alt="about-us">
    <h2>About Us</h2>
    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, necessitatibus voluptas! Asperiores cumque, illum temporibus voluptates praesentium vel officia beatae quasi pariatur officiis accusantium laudantium quod ab molestias ipsa magni.</p>
-
+   </div>
+   <br>
    <!-- wrapper, button and flex -->
    <h2>Our Services</h2>
    <div class="wrapper">
@@ -58,6 +72,7 @@
         <button type="button">Digital Plans</button>
     </div>
    </div>
+   <br>
    <div class="wrapper">
     <img src="images/marketing.jpg" alt="marketing">
     <div>
@@ -66,6 +81,7 @@
         <button type="button">Marketiing Plans</button>
     </div>
    </div>
+   <br>
    <div class="wrapper">
     <img src="images/video.jpg" alt="video">
     <div>
@@ -74,6 +90,7 @@
         <button type="button">Video Plans</button>
     </div>
    </div>
+   <br>
    <div class="wrapper">
     <img src="images/web.jpg" alt="web">
     <div>
@@ -82,6 +99,7 @@
         <button type="button">Web Plans</button>
     </div>
    </div>
+   <br>
    <div class="wrapper">
     <img src="images/print.jpg" alt="print">
     <div>

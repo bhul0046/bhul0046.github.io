@@ -1,9 +1,43 @@
+p{
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h1,h2,h3{
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
 
 .map {
     width: 600;
     height: 450;
     border: 0;
 }
+
+a {
+    text-decoration: none;
+    color:  #c78c06;
+}
+
+ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5%;
+    font-size: larger;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.connect {
+    width: 100px; 
+}
+
 
 .tables {
     background-color: black;
